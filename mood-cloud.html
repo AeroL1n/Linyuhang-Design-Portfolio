@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Mood-Cloud 友情气象馆视觉与品牌设计项目，林宇航作品集。" />
+    <title>Mood-Cloud · Lin Yuhang</title>
+    <link rel="stylesheet" href="ip-design.css?v=48" />
+  </head>
+  <body class="mood-cloud-page">
+    <header class="project-header" data-project-header>
+      <a class="back-link" href="index.html" aria-label="返回首页">
+        <span aria-hidden="true">←</span><span>BACK TO HOME</span>
+      </a>
+
+      <button class="project-menu-toggle" type="button" aria-expanded="false" aria-controls="project-nav" data-project-menu>
+        <span></span><span></span><span class="sr-only">打开项目导航</span>
+      </button>
+
+      <nav class="project-nav" id="project-nav" aria-label="项目切换">
+        <a href="app-redesign.html#frame-4"><span class="nav-roll" aria-hidden="true"><span>AI 交互式作品社区</span><span>AI 交互式作品社区</span></span><span class="sr-only">AI 交互式作品社区</span></a>
+        <a href="web-design.html#frame-19"><span class="nav-roll" aria-hidden="true"><span>AI Coding 交付实践</span><span>AI Coding 交付实践</span></span><span class="sr-only">AI Coding 交付实践</span></a>
+        <a href="other-items.html#frame-4"><span class="nav-roll" aria-hidden="true"><span>App 改版</span><span>App 改版</span></span><span class="sr-only">App 改版</span></a>
+        <a href="ip-design.html#frame-31"><span class="nav-roll" aria-hidden="true"><span>IP 设计</span><span>IP 设计</span></span><span class="sr-only">IP 设计</span></a>
+        <a class="is-active" href="#frame-1" aria-current="page"><span class="nav-roll" aria-hidden="true"><span>其他项目</span><span>其他项目</span></span><span class="sr-only">其他项目</span></a>
+      </nav>
+
+      <div class="contact-control">
+        <button class="contact-button" type="button" aria-expanded="false" aria-controls="project-contact-popover" data-contact-toggle>
+          <span class="nav-roll" aria-hidden="true"><span>LET'S TALK</span><span>LET'S TALK</span></span><span class="sr-only">LET'S TALK</span>
+        </button>
+        <div class="contact-popover" id="project-contact-popover" role="dialog" aria-label="联系我">
+          <p>Scan to connect</p>
+          <img class="contact-qr" src="assets/images/contact/二维码-反白.png" alt="联系二维码" />
+          <div class="wechat-row">
+            <span>Hangz-zai</span>
+            <button class="wechat-copy" type="button" data-copy-wechat data-tooltip="Copy WeChat ID" aria-label="复制微信号">
+              <img class="wechat-copy-icon" src="assets/svg/ui/Copy (复制).svg" alt="" aria-hidden="true" />
+              <img class="wechat-check-icon" src="assets/svg/ui/Check-small (校验-小).svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-story">
+      <div class="generated-project-frames" data-generated-frames aria-label="Mood-Cloud 友情气象馆项目画板"></div>
+      <script>
+        (() => {
+          const root = document.querySelector('[data-generated-frames]');
+          if (!root) return;
+          for (let number = 1; number <= 22; number += 1) {
+            const section = document.createElement('section');
+            section.className = 'project-frame frame-photo';
+            section.id = `frame-${number}`;
+            section.dataset.frame = String(number);
+            section.setAttribute('aria-label', `Mood-Cloud 友情气象馆项目第 ${number} 屏`);
+
+            const image = document.createElement('img');
+            image.src = `assets/projects/mood-cloud/images/${number}.png`;
+            image.alt = `Mood-Cloud 友情气象馆项目第 ${number} 屏视觉稿`;
+            image.decoding = 'async';
+            if (number !== 1) image.loading = 'lazy';
+            section.append(image);
+            root.append(section);
+          }
+        })();
+      </script>
+
+      <section class="project-outro" id="project-outro" aria-label="下一项目与联系方式">
+        <a class="next-case-card outro-reveal" href="app-redesign.html#frame-4" data-outro-reveal aria-label="查看下一个项目：AI 交互式作品社区">
+          <span class="next-case-media" aria-hidden="true">
+            <img src="assets/projects/app-redesign/images/4.png" alt="" loading="lazy" decoding="async" />
+          </span>
+          <span class="next-case-veil" aria-hidden="true"></span>
+          <span class="next-case-content">
+            <span class="next-case-kicker">NEXT PROJECT</span>
+            <span class="next-case-title" role="heading" aria-level="2">AI 交互式作品社区</span>
+            <span class="next-case-cta"><span>OPEN THE PROJECT</span><span class="next-case-arrow" aria-hidden="true">↗</span></span>
+          </span>
+        </a>
+
+        <section class="say-hello-card outro-reveal" data-outro-reveal aria-label="联系我">
+          <div class="say-hello-backdrop" aria-hidden="true"></div>
+          <div class="say-hello-content">
+            <p>LET'S WORK TOGETHER</p>
+            <div class="say-hello-contact-control">
+              <svg class="say-hello-filter-defs" width="0" height="0" aria-hidden="true" focusable="false">
+                <filter id="say-hello-orange" color-interpolation-filters="sRGB">
+                  <feFlood flood-color="#FF4E00" result="orange" />
+                  <feComposite in="orange" in2="SourceAlpha" operator="in" />
+                </filter>
+              </svg>
+              <button class="say-hello-button" type="button" aria-label="Say hello" aria-expanded="false" aria-controls="say-hello-contact-popover" data-say-hello-contact-toggle>
+                <img class="say-hello-label" src="assets/projects/ip-design/svg/hello.svg" alt="" aria-hidden="true" />
+                <img class="say-hello-arrow" src="assets/projects/ip-design/svg/箭头 say hello.svg" alt="" aria-hidden="true" />
+              </button>
+              <div class="contact-popover say-hello-contact-popover" id="say-hello-contact-popover" role="dialog" aria-label="联系二维码">
+                <p>Scan to connect</p>
+                <img class="contact-qr" src="assets/images/contact/二维码-反白.png" alt="联系二维码" loading="lazy" decoding="async" />
+                <div class="wechat-row">
+                  <span>Hangz-zai</span>
+                  <button class="wechat-copy" type="button" data-copy-wechat data-tooltip="Copy WeChat ID" aria-label="复制微信号">
+                    <img class="wechat-copy-icon" src="assets/svg/ui/Copy (复制).svg" alt="" aria-hidden="true" />
+                    <img class="wechat-check-icon" src="assets/svg/ui/Check-small (校验-小).svg" alt="" aria-hidden="true" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-reference">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div class="footer-badge" aria-label="Lin Yuhang，Visual Designer，Design with curiosity">
+            <div class="footer-badge-title">LIN YUHANG, VISUAL DESIGNER</div>
+            <div class="footer-badge-row">
+              <span class="footer-globe" aria-hidden="true"><img src="assets/svg/dai'dai_icon.svg" alt="" /></span>
+              <span>DESIGN WITH<br />CURIOSITY</span>
+              <b>VIS</b>
+            </div>
+          </div>
+          <p class="footer-copyright">©2026 LIN YUHANG, ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-platforms" aria-label="社交链接">
+            <a href="https://www.zcool.com.cn/u/27059480" target="_blank" rel="noreferrer">ZCOOL</a>
+            <a href="https://www.behance.net/dd5b13a4" target="_blank" rel="noreferrer">Behance</a>
+            <a href="https://github.com/AeroL1n?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <div class="footer-contact-row">
+            <a class="footer-email" href="mailto:1829192756@qq.com">1829192756@qq.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="ip-design.js?v=11"></script>
+  </body>
+</html>

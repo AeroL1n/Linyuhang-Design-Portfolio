@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="林宇航的视觉与 UI/UX 设计作品集。"
+    />
+    <title>林宇航 · Visual Designer</title>
+    <link rel="stylesheet" href="styles.css?v=about-layout-26" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="返回首页" data-tooltip="回到顶部">
+        <span class="brand-dots" aria-hidden="true">
+          <img src="assets/svg/ui/装饰 01.svg" alt="" />
+        </span>
+        <span class="brand-label">Lucky2026</span>
+        <span class="brand-arrow" aria-hidden="true">
+          <img src="assets/svg/ui/装饰 02.svg" alt="" />
+        </span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="打开导航"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="主要导航" data-nav>
+        <a class="nav-link is-active" href="#home" data-nav-link>Home</a>
+        <a class="nav-link" href="#work" data-nav-link>Work</a>
+        <a class="nav-link" href="#about" data-nav-link>About me</a>
+        <div class="contact-control">
+          <button
+            class="contact-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="contact-popover"
+            data-contact-toggle
+          >
+            Let's talk
+          </button>
+          <div class="contact-popover" id="contact-popover" role="dialog" aria-label="联系我">
+            <p>Scan to connect</p>
+            <img class="contact-qr" src="assets/images/contact/二维码-反白.png" alt="联系二维码" />
+            <div class="wechat-row">
+              <span class="wechat-id">Hangz-zai</span>
+              <button class="wechat-copy" type="button" data-copy-wechat data-tooltip="Copy WeChat ID" aria-label="复制微信号">
+                <img class="wechat-copy-icon" src="assets/svg/ui/Copy (复制).svg" alt="" aria-hidden="true" />
+                <img class="wechat-check-icon" src="assets/svg/ui/Check-small (校验-小).svg" alt="" aria-hidden="true" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-dark" id="home" data-section>
+        <img
+          class="hero-background"
+          src="assets/svg/hero/封面 背景.svg"
+          alt=""
+          aria-hidden="true"
+        />
+
+        <div class="hero-stage">
+          <div
+            class="hero-title hero-light-title"
+            role="img"
+            aria-label="Vision Design"
+            data-hero-light-title
+          >
+            <div class="hero-title-layer hero-title-base" aria-hidden="true">
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 1.svg" alt="" style="--x: 0%; --y: 1.478%; --w: 18.61%; --h: 42.611%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 2.svg" alt="" style="--x: 19.465%; --y: 1.478%; --w: 9.733%; --h: 42.611%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 3.svg" alt="" style="--x: 30.16%; --y: 1.478%; --w: 18.503%; --h: 42.857%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 4.svg" alt="" style="--x: 49.626%; --y: 1.478%; --w: 9.733%; --h: 42.611%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 5.svg" alt="" style="--x: 60.535%; --y: 1.478%; --w: 18.717%; --h: 43.103%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 6.svg" alt="" style="--x: 81.176%; --y: 0%; --w: 18.503%; --h: 43.103%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 7.svg" alt="" style="--x: 0.749%; --y: 59.36%; --w: 17.54%; --h: 40.394%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 8.svg" alt="" style="--x: 19.144%; --y: 59.36%; --w: 14.439%; --h: 40.394%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 9.svg" alt="" style="--x: 34.332%; --y: 58.621%; --w: 17.433%; --h: 41.379%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 10.svg" alt="" style="--x: 52.834%; --y: 59.36%; --w: 9.091%; --h: 40.394%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 11.svg" alt="" style="--x: 62.995%; --y: 59.36%; --w: 17.54%; --h: 40.394%" />
+              <img class="hero-glyph-image" data-hero-glyph src="assets/svg/hero/图形 12.svg" alt="" style="--x: 82.032%; --y: 59.36%; --w: 17.433%; --h: 40.394%" />
+            </div>
+          </div>
+          <img
+            class="hero-name"
+            src="assets/svg/hero/封面 设计师名称.svg"
+            alt="by Lin Yuhang"
+          />
+          <img
+            class="hero-character"
+            src="assets/images/hero/封面 IP.png"
+            alt="戴着护目镜的原创角色插画"
+          />
+          <img
+            class="hero-decoration"
+            src="assets/svg/hero/封面 装饰.svg"
+            alt=""
+            aria-hidden="true"
+          />
+
+          <div class="hero-kicker" aria-hidden="true">UI/UX Design</div>
+        </div>
+      </section>
+
+      <div class="identity-banner-fold-shell" data-hero-banner-fold>
+        <section class="identity-banner hero-transition-banner" aria-label="Lin Yuhang，Visual Designer">
+          <p class="sr-only">Lin Yuhang，Visual Designer</p>
+          <div class="identity-banner-viewport" aria-hidden="true">
+            <div class="identity-banner-track">
+              <div class="identity-banner-group">
+                <span>Lin Yuhang</span>
+                <i class="identity-banner-mark">©</i>
+                <span>Visual Designer</span>
+                <i class="identity-banner-mark">©</i>
+              </div>
+              <div class="identity-banner-group">
+                <span>Lin Yuhang</span>
+                <i class="identity-banner-mark">©</i>
+                <span>Visual Designer</span>
+                <i class="identity-banner-mark">©</i>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="works section-dark" id="work" data-section>
+        <div class="work-intro reveal">
+          <div class="work-label">
+            <span>(02)</span>
+            <span>Selected work</span>
+          </div>
+          <div class="work-heading-reveal section-title-reveal" data-title-reveal>
+            <h2>All Works</h2>
+            <span class="section-title-cover" aria-hidden="true"></span>
+          </div>
+          <p>(05) / From concept to visual</p>
+        </div>
+
+        <div class="work-grid">
+          <a class="work-card reveal" href="app-redesign.html" aria-label="查看 AI 交互式作品社区项目详情">
+            <div class="work-media">
+              <img src="assets/projects/app-redesign/images/4.png" alt="popo 交互式作品平台项目封面" loading="lazy" decoding="async" />
+            </div>
+            <div class="work-meta">
+              <span>/2026/</span>
+              <span>从 0 到 1 / 主导产品体验 / 视觉定义</span>
+            </div>
+            <div class="work-title-reveal">
+              <span class="work-title-cover" aria-hidden="true"></span>
+              <h3>AI 交互式作品社区</h3>
+            </div>
+          </a>
+
+          <a class="work-card reveal" href="web-design.html" aria-label="查看 AI Coding 交付实践项目详情">
+            <div class="work-media">
+              <img src="assets/projects/comate/images/19.png" alt="Comate 官网改版项目封面" loading="lazy" decoding="async" />
+            </div>
+            <div class="work-meta">
+              <span>/2026/</span>
+              <span>独立开发 / Design-to-Code / 动效工程化</span>
+            </div>
+            <div class="work-title-reveal">
+              <span class="work-title-cover" aria-hidden="true"></span>
+              <h3>AI Coding 交付实践</h3>
+            </div>
+          </a>
+
+          <a class="work-card reveal" href="other-items.html" aria-label="查看其他项目详情">
+            <div class="work-media">
+              <img src="assets/projects/xiaodai-yeda/images/4.png" alt="小呆耶达项目封面" loading="lazy" decoding="async" />
+            </div>
+            <div class="work-meta">
+              <span>/2025/</span>
+              <span>用户研究 / 多端协同 / 视觉主导</span>
+            </div>
+            <div class="work-title-reveal">
+              <span class="work-title-cover" aria-hidden="true"></span>
+              <h3>App 改版</h3>
+            </div>
+          </a>
+
+          <a class="work-card reveal" href="ip-design.html" aria-label="查看 IP 设计项目详情">
+            <div class="work-media">
+              <img src="assets/images/work/项目三封面.png" alt="童趣三维角色视觉设计" loading="lazy" decoding="async" />
+            </div>
+            <div class="work-meta">
+              <span>/2025/</span>
+              <span>AIGC / 品牌设计</span>
+            </div>
+            <div class="work-title-reveal">
+              <span class="work-title-cover" aria-hidden="true"></span>
+              <h3>IP 设计</h3>
+            </div>
+          </a>
+
+          <a class="work-card work-card--featured reveal" href="mood-cloud.html" aria-label="查看 Mood-Cloud 友情气象馆项目详情">
+            <div class="work-media">
+              <img src="assets/projects/mood-cloud/images/1.png" alt="Mood-Cloud 友情气象馆项目封面" loading="lazy" decoding="async" />
+            </div>
+            <div class="work-meta">
+              <span>/2026/</span>
+              <span>视觉设计 / AI 设计探索</span>
+            </div>
+            <div class="work-title-reveal">
+              <span class="work-title-cover" aria-hidden="true"></span>
+              <h3>其他项目</h3>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="about about-visual section-dark" id="about" data-section>
+        <img class="about-background" src="assets/images/about/about-background.webp" alt="" aria-hidden="true" loading="lazy" decoding="async" />
+
+        <div class="about-canvas">
+          <div class="about-profile reveal">
+            <div class="portrait-wrap">
+              <img class="portrait" src="assets/images/about/关于我 头像.png" alt="林宇航的黑白肖像" loading="lazy" decoding="async" />
+              <img class="portrait-frame" src="assets/svg/about/关于我 头像框.svg?v=profile-align-3" alt="" aria-hidden="true" />
+            </div>
+            <div class="profile-name" aria-label="林宇航，Putian, Fujian">
+              <strong>林宇航</strong>
+              <span>Putian, Fujian</span>
+            </div>
+            <div class="tag-cloud" aria-label="个人标签">
+              <div class="tag-row-viewport">
+                <div class="tag-row" aria-label="标签 1 至 4">
+                  <button class="tag-hit is-active" type="button" data-tag="摄影" aria-label="摄影">
+                    <img src="assets/svg/about/tags/标签 1.svg" alt="摄影" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="水瓶座的ESTJ" aria-label="水瓶座的 ESTJ">
+                    <img src="assets/svg/about/tags/标签 2.svg" alt="水瓶座的 ESTJ" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="篮球" aria-label="篮球">
+                    <img src="assets/svg/about/tags/标签 3.svg" alt="篮球" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="胡建人" aria-label="胡建人">
+                    <img src="assets/svg/about/tags/标签 4.svg" alt="胡建人" />
+                  </button>
+                </div>
+              </div>
+              <div class="tag-row-viewport">
+                <div class="tag-row" aria-label="标签 5 至 8">
+                  <button class="tag-hit" type="button" data-tag="退役熬夜选手" aria-label="退役熬夜选手">
+                    <img src="assets/svg/about/tags/标签 5.svg" alt="退役熬夜选手" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="剪辑" aria-label="剪辑">
+                    <img src="assets/svg/about/tags/标签 6.svg" alt="剪辑" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="素描" aria-label="素描">
+                    <img src="assets/svg/about/tags/标签 7.svg" alt="素描" />
+                  </button>
+                  <button class="tag-hit" type="button" data-tag="视觉设计" aria-label="视觉设计">
+                    <img src="assets/svg/about/tags/标签 8.svg" alt="视觉设计" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <p class="tag-status" aria-live="polite">Selected: 摄影</p>
+          </div>
+
+          <div class="about-info">
+            <div class="about-intro-card about-text-block reveal">
+              <div class="about-heading-reveal" data-title-reveal>
+                <h2>ABOUT ME</h2>
+                <span class="about-title-window" aria-hidden="true"></span>
+              </div>
+              <a
+                class="about-resume"
+                href="assets/docs/lin-yuhang-resume.pdf"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="在新窗口查看简历"
+              >
+                <span>查看简历</span>
+                <span class="about-resume-arrow" aria-hidden="true">↗</span>
+              </a>
+              <p>视觉设计师，关注视觉审美与用户体验的系统化表达；熟悉 Figma、AE等设计工具，持续探索 AIGC 在视觉创作与页面实现中的应用，具备前端协作提效经验</p>
+            </div>
+            <div class="about-contact about-text-block reveal">
+              <div class="about-heading-reveal" data-title-reveal>
+                <h3>HI</h3>
+                <span class="about-title-window" aria-hidden="true"></span>
+              </div>
+              <dl class="contact-list">
+                <div><dt>微信</dt><dd>Hangz-zai</dd></div>
+                <div><dt>手机</dt><dd>18850938331</dd></div>
+                <div><dt>邮箱</dt><dd>1829192756@qq.com</dd></div>
+                <div><dt>仓库</dt><dd><a href="https://github.com/AeroL1n?tab=repositories" target="_blank" rel="noreferrer">https://github.com/AeroL1n?tab=repositories</a></dd></div>
+              </dl>
+            </div>
+            <div class="about-info-grid">
+              <div class="about-awards about-text-block reveal" tabindex="0">
+                <div class="about-heading-reveal" data-title-reveal>
+                  <h3>AWARDS</h3>
+                  <span class="about-title-window" aria-hidden="true"></span>
+                </div>
+                <ul class="awards-list">
+                  <li><strong>13届全国高校数字艺术设计大赛</strong><span>一等奖</span><em>2025.08</em></li>
+                  <li><strong>14届全国高校数字艺术设计大赛</strong><span>三等奖</span><em>2026.08</em></li>
+                  <li><strong>东方设计奖</strong><span>全国赛区一等奖</span><em>2025.08</em></li>
+                  <li><strong>校级专业奖学金</strong><span>年级10%</span><em>x2</em></li>
+                </ul>
+              </div>
+              <div class="about-experience about-text-block reveal" tabindex="0">
+                <div class="about-heading-reveal" data-title-reveal>
+                  <h3>EXPERIENCE</h3>
+                  <span class="about-title-window" aria-hidden="true"></span>
+                </div>
+                <div class="experience-list">
+                  <article>
+                    <time>2026.04-至今</time>
+                    <div class="experience-company"><strong>百度｜SEP</strong><b>体验设计师</b></div>
+                    <p>参与百度内部交互式作品平台 popo 的核心视觉与交互设计，针对 AI Coding 产物难发现、难发布、难管理的问题，围绕作品发现、发布、资产管理与 AI 创作建立核心体验；组织内测阶段截至 7 月 20 日累计注册用户 10,303 人<br />主导 Comate 官网 ToC 改版，直接进行HTML 页面交付到前端的全新交付形式、工作流；经前端评估，约85%以上的样式与动效代码可直接复用，降低视觉还原与动效开发成本</p>
+                  </article>
+                  <article>
+                    <time>2025.05-2025.10</time>
+                    <div class="experience-company"><strong>厦门几何风网络科技</strong><b>视觉设计师</b></div>
+                    <p>主导小呆耶达移动端及 Web 官网视觉升级，完成竞品分析、用户研究、高保真原型与视觉规范输出，移动端全链路视觉/交互设计，并推进产品官网的 UI 设计及首页落地</p>
+                  </article>
+                  <article>
+                    <time>2025.11-2026.02</time>
+                    <div class="experience-company"><strong>到家校外托管服务有限公司</strong><b>品牌设计师</b></div>
+                    <p>在协作中主导到家托管品牌视觉升级，围绕品牌形象统一与线下触点延展，完成 Logo、IP 形象、VIS 规范、宣传物料及空间导视设计，整理交付品牌视觉识别手册</p>
+                  </article>
+                  <article>
+                    <time>2025.12-2026.03</time>
+                    <div class="experience-company"><strong>福州畅读信息科技</strong><b>AI分镜设计师</b></div>
+                    <p>独立完成多部 AI 影片的视觉制作，运用 AIGC 工具完成人物定妆、场景设定与分镜创作，累计交付 16+ 集、600+ 张分镜物料</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-fold-shell" data-work-cta-fold>
+      <section class="cta-panel section-dark" id="contact" data-section>
+        <div class="cta-pattern" aria-hidden="true">
+          <canvas class="cta-canvas"></canvas>
+          <span class="cta-pointer-orb"></span>
+        </div>
+        <div class="cta-bracket cta-bracket-left" aria-hidden="true">(</div>
+        <div class="cta-bracket cta-bracket-right" aria-hidden="true">)</div>
+        <div class="cta-content" data-cta-content>
+          <h2 class="cta-title-reveal">
+            <span class="cta-title-line" data-cta-line="1">
+              <span>要不要一起做点<br class="cta-mobile-break" />有意思的事？</span>
+            </span>
+            <span class="cta-title-line" data-cta-line="2">
+              <span>来找我聊聊吧！</span>
+            </span>
+          </h2>
+          <div class="cta-contact-control">
+            <button
+              class="cta-button"
+              type="button"
+              aria-expanded="false"
+              aria-controls="cta-contact-popover"
+              data-cta-contact-toggle
+            >
+              <span>LET'S TALK</span>
+              <span class="cta-button-arrow" aria-hidden="true">↗</span>
+            </button>
+            <div
+              class="contact-popover cta-contact-popover"
+              id="cta-contact-popover"
+              role="dialog"
+              aria-label="联系二维码"
+            >
+              <p>Scan to connect</p>
+              <img class="contact-qr" src="assets/images/contact/二维码-反白.png" alt="联系二维码" loading="lazy" decoding="async" />
+              <div class="wechat-row">
+                <span class="wechat-id">Hangz-zai</span>
+                <button class="wechat-copy" type="button" data-copy-wechat data-tooltip="Copy WeChat ID" aria-label="复制微信号">
+                  <img class="wechat-copy-icon" src="assets/svg/ui/Copy (复制).svg" alt="" aria-hidden="true" />
+                  <img class="wechat-check-icon" src="assets/svg/ui/Check-small (校验-小).svg" alt="" aria-hidden="true" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+
+      <section class="identity-banner connect-banner" aria-label="Let's connect" data-footer-reveal-anchor>
+        <p class="sr-only">Let's connect</p>
+        <div class="identity-banner-viewport" aria-hidden="true">
+          <div class="identity-banner-track">
+            <div class="identity-banner-group">
+              <span>Let's connect</span>
+              <i class="identity-banner-mark">©</i>
+            </div>
+            <div class="identity-banner-group">
+              <span>Let's connect</span>
+              <i class="identity-banner-mark">©</i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-reference" data-footer-reveal>
+      <div class="footer-inner">
+        <div class="footer-left">
+          <div class="footer-badge" aria-label="Lin Yuhang，Visual Designer，Design with curiosity">
+            <div class="footer-badge-title">LIN YUHANG, VISUAL DESIGNER</div>
+            <div class="footer-badge-row">
+              <span class="footer-globe" aria-hidden="true"><img src="assets/svg/dai'dai_icon.svg" alt="" /></span>
+              <span>DESIGN WITH<br />CURIOSITY</span>
+              <b>VIS</b>
+            </div>
+          </div>
+          <p class="footer-copyright">©2026 LIN YUHANG, ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-platforms" aria-label="社交链接">
+            <a href="https://github.com/AeroL1n?tab=repositories" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.zcool.com.cn/u/27059480" target="_blank" rel="noreferrer">ZCOOL</a>
+            <a href="https://www.behance.net/dd5b13a4" target="_blank" rel="noreferrer">Behance</a>
+          </div>
+          <div class="footer-contact-row">
+            <a class="footer-email" href="mailto:1829192756@qq.com">1829192756@qq.com</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js?v=mobile-experience-open-2"></script>
+  </body>
+</html>

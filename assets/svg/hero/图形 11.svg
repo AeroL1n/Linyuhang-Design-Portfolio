@@ -1,0 +1,12 @@
+<svg width="164" height="164" viewBox="0 0 164 164" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.8">
+<foreignObject x="0" y="0" width="0" height="0"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(5.19px);clip-path:url(#bgblur_0_5108_224_clip_path);height:100%;width:100%"></div></foreignObject><path data-figma-bg-blur-radius="10.3705" d="M0 81.5734C0 126.625 36.5216 163.147 81.5734 163.147C126.141 163.147 162.362 127.405 163.134 83.0214H81.5734L123.567 11.625C111.3 4.24471 96.9323 0 81.5734 0C36.5216 0 0 36.5216 0 81.5734Z" fill="url(#paint0_radial_5108_224)" fill-opacity="0.44"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_5108_224_clip_path" transform="translate(0 0)"><path d="M0 81.5734C0 126.625 36.5216 163.147 81.5734 163.147C126.141 163.147 162.362 127.405 163.134 83.0214H81.5734L123.567 11.625C111.3 4.24471 96.9323 0 81.5734 0C36.5216 0 0 36.5216 0 81.5734Z"/>
+</clipPath><radialGradient id="paint0_radial_5108_224" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(81.5734 82.0561) rotate(90) scale(104.742)">
+<stop stop-opacity="0.44"/>
+<stop offset="0.694469" stop-color="white" stop-opacity="0.69"/>
+</radialGradient>
+</defs>
+</svg>

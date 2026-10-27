@@ -3,9 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="小呆耶达 APP 与 Web 体验设计项目，林宇航作品集。" />
-    <title>Other Items · Lin Yuhang</title>
+    <meta name="description" content="小呆耶达App &amp; Web 端项目，林宇航作品集。" />
+    <title>小呆耶达App &amp; Web 端 · Lin Yuhang</title>
     <link rel="stylesheet" href="ip-design.css?v=48" />
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="assets/images/ui/site-favicon.ico?v=1" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/ui/site-favicon-32.png?v=1" />
   </head>
   <body class="other-items-page">
     <header class="project-header" data-project-header>
@@ -18,10 +20,10 @@
       </button>
 
       <nav class="project-nav" id="project-nav" aria-label="项目切换">
-        <a href="app-redesign.html#frame-4"><span class="nav-roll" aria-hidden="true"><span>AI 交互式作品社区</span><span>AI 交互式作品社区</span></span><span class="sr-only">AI 交互式作品社区</span></a>
+        <a href="app-redesign.html#frame-4"><span class="nav-roll" aria-hidden="true"><span>0-1 搭建百度AI 作品管理平台</span><span>0-1 搭建百度AI 作品管理平台</span></span><span class="sr-only">0-1 搭建百度AI 作品管理平台</span></a>
         <a href="web-design.html#frame-19"><span class="nav-roll" aria-hidden="true"><span>AI Coding 交付实践</span><span>AI Coding 交付实践</span></span><span class="sr-only">AI Coding 交付实践</span></a>
-        <a class="is-active" href="#frame-4" aria-current="page"><span class="nav-roll" aria-hidden="true"><span>App 改版</span><span>App 改版</span></span><span class="sr-only">App 改版</span></a>
-        <a href="ip-design.html#frame-31"><span class="nav-roll" aria-hidden="true"><span>IP 设计</span><span>IP 设计</span></span><span class="sr-only">IP 设计</span></a>
+        <a class="is-active" href="#frame-4" aria-current="page"><span class="nav-roll" aria-hidden="true"><span>小呆耶达App &amp; Web 端</span><span>小呆耶达App &amp; Web 端</span></span><span class="sr-only">小呆耶达App &amp; Web 端</span></a>
+        <a href="ip-design.html#frame-31"><span class="nav-roll" aria-hidden="true"><span>AI 辅助品牌视觉设计</span><span>AI 辅助品牌视觉设计</span></span><span class="sr-only">AI 辅助品牌视觉设计</span></a>
         <a href="mood-cloud.html#frame-1"><span class="nav-roll" aria-hidden="true"><span>其他项目</span><span>其他项目</span></span><span class="sr-only">其他项目</span></a>
       </nav>
 
@@ -49,7 +51,7 @@
         (() => {
           const root = document.querySelector('[data-generated-frames]');
           if (!root) return;
-          for (let number = 4; number <= 35; number += 1) {
+          for (let number = 1; number <= 36; number += 1) {
             const section = document.createElement('section');
             section.className = 'project-frame frame-photo';
             section.id = `frame-${number}`;
@@ -60,7 +62,7 @@
             image.src = `assets/projects/xiaodai-yeda/images/${number}.png`;
             image.alt = `小呆耶达项目第 ${number} 屏视觉稿`;
             image.decoding = 'async';
-            if (number !== 4) image.loading = 'lazy';
+            if (number !== 1) image.loading = 'lazy';
             section.append(image);
             root.append(section);
           }
@@ -68,14 +70,14 @@
       </script>
 
       <section class="project-outro" id="project-outro" aria-label="下一项目与联系方式">
-        <a class="next-case-card outro-reveal" href="ip-design.html#frame-31" data-outro-reveal aria-label="查看下一个项目：IP 设计">
+        <a class="next-case-card outro-reveal" href="ip-design.html#frame-31" data-outro-reveal aria-label="查看下一个项目：AI 辅助品牌视觉设计">
           <span class="next-case-media" aria-hidden="true">
-            <img class="next-case-image--ip" src="assets/images/work/项目三封面.png" alt="" loading="lazy" decoding="async" />
+            <img class="next-case-image--ip" src="assets/images/work/ip-design-cover.png" alt="" loading="lazy" decoding="async" />
           </span>
           <span class="next-case-veil" aria-hidden="true"></span>
           <span class="next-case-content">
             <span class="next-case-kicker">NEXT PROJECT</span>
-            <span class="next-case-title" role="heading" aria-level="2">IP 设计</span>
+            <span class="next-case-title" role="heading" aria-level="2">AI 辅助品牌视觉设计</span>
             <span class="next-case-cta"><span>OPEN THE PROJECT</span><span class="next-case-arrow" aria-hidden="true">↗</span></span>
           </span>
         </a>

@@ -1,4 +1,4 @@
-# 林宇航 · Visual Designer Portfolio
+# 林宇航 · Designer Portfolio
 
 这是林宇航的个人视觉设计作品集，用一个可直接浏览的网页呈现视觉设计、体验设计与 AI 设计探索相关项目。
 
